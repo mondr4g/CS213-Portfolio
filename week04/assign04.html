@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Drackode</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <style>
+        header { background: linear-gradient(315deg, rgba(184,198,219,.7) 0%, rgba(245,247,250,.7) 74%), url('bg.jpg'); height: 100vh; background-size: cover; }
+        #about-us { margin-top: 100px; grid-column: 2/4;grid-row: 1/2; }
+        #about-us h2, #solutions h2 { margin: 0; padding: 10px; text-align: center; color: black; font-size: 2.5em; }
+        #about-us p { text-align: justify; font-size: 25px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+        #about-us img { margin-top: 50px; width: 100%; height: 500px; }
+        #solutions { margin-top: 100px; grid-column: 2/4; grid-row: 2/3; }
+        #solutions .container2 { display: flex; }
+        #solutions img{ margin-top: 50px; width: 50%; padding: 10px; }
+        .contact { color: white; grid-column: 2/4; grid-row: 3/4; }
+        .contact h2 { margin: 0; padding: 10px; text-align: left; color: white;	}
+        form { font-size: 20px; padding: 30px; margin-top: 200px; background-color: black; font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    </style>
+</head>
+<body>
+	<header>
+		<div class="menu">
+			<div class="container">
+				<img src="DK.png" alt="Logo UAA">
+				<nav>
+					<ul>
+						<li><a href="#about-us">About Us</a></li>
+						<li><a href="#solutions">Solutions</a></li>
+						<li><a href="assign04_2.html">Gallery</a></li>
+					</ul>
+				</nav>	
+			</div>
+
+			<div class="container" id="title-flex">
+				<div class="container-title">
+					<h1>Drackcode</h1>
+					<h2>Web & Application Development</h2>
+					<a href="#contact-form">Contact</a>
+				</div>	
+			</div>	
+		</div>
+	</header>	
+	<main>
+		<div class="home-grid">
+			<div id="about-us">
+				<h2>About us</h2>
+				<hr>
+				<p>
+                    Drackode is a Web & Application Development company that offers solutions for people or
+                    companies looking to have their own web page. Our mission is to bring our combined expertise 
+                    and experience in digital technologies to the businesses starting their transformation to the 
+                    digital economy. 	
+				</p>
+				<img src="about.jpg" alt="#about-us">
+            </div>
+            <div id="solutions">
+                <h2>Solutions</h2>
+                <hr>
+                <div class="container2">
+                    <img src="web.jpg" alt="web-solution">
+                    <p>
+                        We design websites and apps to ensure your prospects get the right feel for your company 
+                        and get in touch with you. 	
+                    </p>
+                </div>
+                <div class="container2">
+                    <img src="app.jpg" alt="web-app-solution">
+                    <p>
+                        Do you have trouble identifying the right software for your company? Don’t worry, we 
+                        can build your custom software that does what you want! 	
+                    </p>   
+                </div>
+            </div>	
+			<div class="contact" id="contact-form">
+				<div>
+					<form action="mailto:josemena146@gmail.com" method="POST" enctype="TEXT/PLAIN">
+					<h2>Contact</h2>
+					<p>Name: <input name="Name" type="text" size="42"></p>
+					<p>E-mail: <input name="E-mail" type="text" size="42"></p>
+					<p>Comment: </p>
+					<textarea name="Comment" cols="42" rows="5">Comment...</textarea><br><br>
+					<input type="submit" name="submit">
+					</form>		
+				</div>		
+			</div>	
+		</div>	
+	</main>
+	<footer>
+		<p>&copy; 2020 | Drackode | Aguascalientes, Mexico</p>      	
+	</footer>
+</body>
+</html>
